@@ -1,0 +1,5 @@
+﻿[alias]
+    cm = "!f() { git add . && git commit -m \"$1\" -m \"$2\"; }; f"
+    feat = "!f() { git add . && git commit -m \"feat($1): $2\" -m \"$3\"; }; f"
+    fix = "!f() { git add . && git commit -m \"fix($1): $2\" -m \"$3\"; }; f"
+    ref = "!f() { git add . && git commit -m \"refactor($1): $2\" -m \"$3\"; }; f"
